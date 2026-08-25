@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   # spec.bindir = "exe"
   # spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.bindir = "bin"
-  spec.executables = ["kozbot.rb"]
+  spec.executables = ["kozbot"]
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
