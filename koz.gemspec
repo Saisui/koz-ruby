@@ -3,8 +3,8 @@
 require_relative "lib/koz/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "puella"
-  spec.version = Puella::VERSION
+  spec.name = "koz"
+  spec.version = Koz::VERSION
   spec.authors = ["彩穂"]
   spec.email = ["37037844+Saisui@users.noreply.github.com"]
 
