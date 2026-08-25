@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+require 'koz'
+require 'ostruct'
+
+MY = OpenStruct.new
+
+require 'ostruct'
+MY ||= OpenStruct.new
+
+MY.home = Dir.home+"/.koz-bot"
+MY.config = Koz::Config.connect_file MY.home+'/config.yaml'
+puts "koz starts!"
+
+class App < Koz::Poti
+  enter do |r|
+    # TODO
+    puts "[\e[33mINFO\e[0m] got message: #{r.data.inspect}"
+    r.on post_type: 'message' do
+      r.reply "Ciallo～(∠・ω< )⌒☆、ここは demo ロボット～谢谢茄子"
+    end
+  end
+end

@@ -7,4 +7,4 @@ bundle install
 
 # Do any other automated setup that you need to do here
 
-mkdir ~/.kozbot
+mkdir %USERPROFILE%/.kozbot
