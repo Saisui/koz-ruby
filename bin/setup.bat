@@ -8,3 +8,7 @@ bundle install
 # Do any other automated setup that you need to do here
 
 mkdir %USERPROFILE%/.kozbot
+cd %USERPROFILE%/.kozbot
+mkdir media_cache
+mkdir chat
+echo '' > config.yaml

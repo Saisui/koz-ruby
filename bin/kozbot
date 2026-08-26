@@ -8,7 +8,7 @@ MY = OpenStruct.new
 require 'ostruct'
 MY ||= OpenStruct.new
 
-MY.home = Dir.home+"/.koz-bot"
+MY.home = Dir.home+"/.kozbot"
 MY.config = Koz::Config.connect_file MY.home+'/config.yaml'
 puts "koz starts!"
 
