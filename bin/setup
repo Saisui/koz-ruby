@@ -7,8 +7,9 @@ bundle install
 
 # Do any other automated setup that you need to do here
 
-mkdir ~/.kozbot
-cd ~/.kozbot
-mkdir media_cache
-mkdir chat
-touch config.yaml
+# mkdir ~/.kozbot
+# cd ~/.kozbot
+# mkdir media_cache
+# mkdir chat
+# touch config.yaml
+ruby -e "home=Dir.home+'/.kozbot'; Dir.mkdir home unless Dir.exist? home; File.open(home+'/config.yaml', 'a'){ it.print '' }"
