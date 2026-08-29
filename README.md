@@ -52,4 +52,8 @@ gem install kozbot-snowluma
 
 # 请支持我
 
-![wechat_support.jpg]
+可以进行打赏~~
+
+我需要房租、水电和伙食费，我选劳动再生产的费用。
+
+![](wechat_support.jpg)
