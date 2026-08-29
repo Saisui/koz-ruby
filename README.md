@@ -47,3 +47,9 @@ kozbot --port 10100
 ```
 gem install kozbot-snowluma
 ```
+
+---
+
+# 请支持我
+
+![wechat_support.jpg]
